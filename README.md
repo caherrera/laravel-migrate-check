@@ -1,8 +1,8 @@
-### An artisan command to check for pending migrations. Exits with number of pending migrations if there are any
-#### FORK ####
-This is a fork [from erjanmx/laravel-migrate-check](https://github.com/erjanmx/laravel-migrate-check)
+###### FORK
+This is a fork from [erjanmx/laravel-migrate-check](https://github.com/erjanmx/laravel-migrate-check)
 
-[![Build Status](https://img.shields.io/travis/caherrera/laravel-migrate-check/master.svg?style=flat-square)](https://travis-ci.org/caherrera/laravel-migrate-check)
+### An artisan command to check for pending migrations. Exits with number of pending migrations if there are any
+[![Build Status](https://travis-ci.org/caherrera/laravel-migrate-check.svg?branch=master)](https://travis-ci.org/caherrera/laravel-migrate-check)
 
 Laravel has a `migrate:status` command to check status of migrations. But this command mostly for humans. There are situations where one needs to know whether to run migrations when using autodeployment, maybe with switching to maintenance mode.
 
