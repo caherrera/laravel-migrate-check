@@ -60,7 +60,7 @@ class MigrateCheckCommand extends BaseCommand
                 return [ $migration ];
             }, $pendingMigrations));
 
-            return 1;
+            return count($pendingMigrations);
         }
 
         $this->info('No pending migrations.');
