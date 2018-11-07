@@ -1,9 +1,9 @@
 <?php
 
-namespace Erjanmx\MigrateCheck\Test;
+namespace caherrera\MigrateCheck\Test;
 
 use Illuminate\Support\ServiceProvider;
-use Erjanmx\MigrateCheck\Commands\MigrateCheckCommand;
+use caherrera\MigrateCheck\Commands\MigrateCheckCommand;
 
 class MigrateCheckServiceProvider extends ServiceProvider
 {

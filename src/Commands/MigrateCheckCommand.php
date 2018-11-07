@@ -1,6 +1,5 @@
 <?php
-
-namespace Erjanmx\MigrateCheck\Commands;
+namespace caherrera\MigrateCheck\Commands;
 
 use Illuminate\Database\Console\Migrations\BaseCommand;
 
@@ -71,7 +70,7 @@ class MigrateCheckCommand extends BaseCommand
 
     /**
      * Gets ran migrations with repository check
-     * 
+     *
      * @return array
      */
     public function getRanMigrations()
@@ -80,6 +79,6 @@ class MigrateCheckCommand extends BaseCommand
             return [];
         }
 
-        return $this->migrator->getRepository()->getRan(); 
+        return $this->migrator->getRepository()->getRan();
     }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "erjanmx/laravel-migrate-check",
-    "description": "A command to check for pending migrations. Exits with non-zero code if there are any",
+    "name": "caherrera/laravel-migrate-check",
+    "description": "A command to check for pending migrations. Exits with number of pending migrations if there are any",
     "keywords": [
         "migrate",
         "check",
@@ -8,12 +8,12 @@
         "database",
         "laravel-migrate-check"
     ],
-    "homepage": "https://github.com/erjanmx/laravel-migrate-check",
+    "homepage": "https://github.com/caherrera/laravel-migrate-check",
     "license": "MIT",
     "authors": [
         {
-            "name": "Erjan",
-            "email": "erjanmx@gmail.com",
+            "name": "Carlos Herrera",
+            "email": "caherrera@gmail.com",
             "role": "Developer"
         }
     ],
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Erjanmx\\MigrateCheck\\": "src"
+            "caherrera\\MigrateCheck\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Erjanmx\\MigrateCheck\\Test\\": "tests"
+            "caherrera\\MigrateCheck\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Erjanmx\\MigrateCheck\\MigrateCheckServiceProvider"
+                "caherrera\\MigrateCheck\\MigrateCheckServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Erjanmx\MigrateCheck\Test;
+namespace caherrera\MigrateCheck\Test;
 
 use Illuminate\Support\Facades\Artisan;
 
